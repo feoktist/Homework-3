@@ -12,10 +12,10 @@ while say not in {'n', 'N'}:
     counter = 0
     errors = 0
     print('\n')
-    print('Guess bdays of these guys: ', mix)
+    print('Guess bdays of these guys: ', random_people)
     print('\n')
 
-    for writer in writers:
+    for writer in random_people:
         print('----------------------------------')
         print('Guess the dd.mm.yyyy for: ', writer)
         print('\n')
